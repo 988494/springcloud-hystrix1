@@ -21,6 +21,7 @@ CREATE TABLE `dept` (<br>
 	2.然后启动带有熔断功能得服务提供者microservicecloud-provider-dept-hystrix-8001
 	3.最后启动服务消费者：microservicecloud-consumer-dept-80<br>
 	其中microservicecloud为所有服模块的父工程，microservicecloud-api是公共模块<br>
+	其他微服务不用管<br>
 	<br>
 ## 结果呈现：
 	访问:<br>
